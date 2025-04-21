@@ -1,0 +1,394 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- --------- UNICONS ---------- -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <!-- --------- CSS ---------- -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- --------- FAVICON ---------- -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+        <title>Portfolio | Arslan</title>
+    </head>
+    <body>
+    <div class="wrapper-main">
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Arslan</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <a href="./public/Resume.pdf" download>
+            <div class="nav-button">
+                <button class="btn">Resume <i class="uil uil-file-alt"></i></button>
+            </div>
+            </a>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <!-- <div class="featured-text-card">
+                    <span>Arslan</span>
+                </div> -->
+                <div class="featured-name">
+                    <p>I'm <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Experienced full-stack developer with a strong focus on AI-powered solutions, combining clean code with seamless user experiences to build intelligent, impactful web application and AI systems.</p>
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <a href="#contact">
+                    <button class="btn blue-btn">Contact</button>
+                    </a>
+                    <a href="./public/Resume.pdf" download>
+                    <button class="btn">Resume<i class="uil uil-file-alt"></i></button>
+                    </a>
+                </div>
+                <div class="social_icons">
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/abdullah-ahmad-arslan-611878251/" target="_blank">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://github.com/abdullahahmadarslan" target="_blank">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/img.jpeg" alt="avatar">
+                </div>
+            </div>
+            <!-- <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+            </div> -->
+
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section about-box-width" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col about-col-left">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>
+                            Hi, I'm Abdullah Ahmad Arslan, a Computer Scientist passionate about building intelligent, user-focused web applications.
+                            I specialize in the MERN stack, Next.js, and TypeScript, with a strong focus on integrating AI, Machine Learning,
+                            Deep Learning, and LLMs into full-stack development. I strive to write clean, efficient code and create impactful solutions
+                            that blend smart technology with seamless user experiences.
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn">Resume <i class="uil uil-import"></i></button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col about-col-right">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>React.js</span>
+                            <span>Next.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>Bootstrap</span>
+                            <span>ShadCN</span>
+                            <span>Material UI</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend & Databases</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+                            <span>MS SQL Server</span>
+                            <span>Convex DB</span>
+                            <span>Chroma DB</span>
+                            <span>Pinecone</span>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills-list">
+
+                        </div>
+                    </div> -->
+        
+                    <!-- <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Java</span>
+                            <span>C++</span>
+                            <span>C</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>Python</span>
+                        </div>
+                    </div> -->
+        
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>AI / ML / DL Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PyTorch</span>
+                            <span>TensorFlow</span>
+                            <span>Numpy</span>
+                            <span>Pandas</span>
+                            <span>OpenCV</span>
+                            <span>Langchain</span>
+                            <span>Meta LLaMA</span>
+                            <span>OpenAI GPT</span>
+                            <span>Google Gemini</span>
+                            <span>RAG</span>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>State Management</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Zustand</span>
+                            <span>Redux Toolkit</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+        <section class="section project-section" id="projects"> 
+            <div class="top-header"> 
+              <h1>Projects</h1> 
+            </div> 
+            <div class="project-container">
+              <!-- Project boxes will be generated by JavaScript -->
+            </div> 
+        </section>
+        
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+            <div class="top-header">
+              <h1>Get in touch</h1>
+              <span>Do you have a project in your mind, contact me here</span>
+            </div>
+          
+            <div class="row">
+              <div class="col">
+                <div class="contact-info">
+                  <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope" ></i>Mail:</p>
+                  <p>abdullah.ahmad.arslan125@gmail.com</p>
+                  <p><i class="uil uil-phone"></i> Tel: </p>
+                  <p>+92 3334578883</p>
+                </div>
+              </div>
+          
+              <div class="col">
+                <form id="contact-form">
+                    <div class="form-control">
+                      <div class="form-inputs">
+                        <input type="text" name="name" class="input-field" placeholder="Name" required />
+                        <input type="email" name="email" class="input-field" placeholder="Email" required />
+                      </div>
+                      <div class="text-area">
+                        <textarea name="message" placeholder="Message" required></textarea>
+                      </div>
+                      <div class="form-button">
+                        <button type="submit" class="btn">
+                          <span id="btn-text">Send</span>
+                          <span id="btn-loader" style="display: none;">Sending...</span>
+                          <i class="uil uil-message"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Toast -->
+                <div id="toast" style="
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                background-color: rgb(47, 255, 102);
+                color: #fff;
+                padding: 1rem 1.5rem;
+                border-radius: 8px;
+                font-size: 14px;
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.4s ease-in-out;
+                z-index: 999;
+                ">
+                Message sent successfully!
+                </div>
+
+              </div>
+            </div>
+        
+          </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p> Arslan .</p>
+            </div>
+            <!-- <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="footer-social-icons">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/abdullah-ahmad-arslan-611878251/" target="_blank">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/abdullahahmadarslan" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div> 
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Arslan</a> - All rights reserved</p>
+            </div>
+        </footer>
+
+        </div>
+
+
+
+
+        <!-- ----- TYPING JS Link ----- -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- ----- SCROLL REVEAL JS Link----- -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ----- MAIN JS ----- -->
+        <script src="assets/js/main.js"></script>
+        <script>
+            const form = document.getElementById("contact-form");
+            const btnText = document.getElementById("btn-text");
+            const btnLoader = document.getElementById("btn-loader");
+            const toast = document.getElementById("toast");
+          
+            form.addEventListener("submit", function (e) {
+              e.preventDefault();
+          
+              // Show loader
+              btnText.style.display = "none";
+              btnLoader.style.display = "inline-block";
+          
+              // Gather form data
+              const formData = new FormData(form);
+              formData.append("_captcha", "false");
+          
+              fetch("https://formsubmit.co/abdullah.ahmad.arslan125@gmail.com", {
+                method: "POST",
+                body: formData
+              })
+              .then(response => {
+                if (response.ok) {
+                  showToast();
+                  form.reset();
+                } else {
+                  alert("Something went wrong. Please try again.");
+                }
+              })
+              .catch(error => {
+                alert("Failed to send. Check your internet connection.");
+                console.error(error);
+              })
+              .finally(() => {
+                // Reset button
+                btnText.style.display = "inline-block";
+                btnLoader.style.display = "none";
+              });
+            });
+          
+            function showToast() {
+              toast.style.opacity = "1";
+              setTimeout(() => {
+                toast.style.opacity = "0";
+              }, 3000);
+            }
+          </script>
+    </div>
+    </body>
+    </html>
